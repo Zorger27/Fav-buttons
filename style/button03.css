@@ -1,0 +1,18 @@
+.btn3 {
+    display: flex;
+    flex-direction: column;
+    margin: 3% auto;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 10px;
+    outline: none;
+    background: darkslategray;
+    border: 1px solid #082d2d;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.btn3:hover {
+    background-color: darkblue;
+    box-shadow: 3px 3px 20px 0 #c048c0;
+}
