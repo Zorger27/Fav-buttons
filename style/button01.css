@@ -1,15 +1,26 @@
+.btn1 {
+	display: flex;
+	cursor: pointer;
+	margin: 25px auto 15px;
+}
+
 a {
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	/*top: 50%;*/
+	/*left: 50%;*/
 	transform: translate(-50%, -50%);
 	text-decoration: none;
 	text-align: center;
 	color: red;
+	background-color: white;
 	font-size: 30px;
 	letter-spacing: 2px;
 	padding-left: 5px;
-	margin-top: -13%;
+}
+
+span {
+	color: transparent;
+	background-color: transparent;
 }
 
 a::before,
